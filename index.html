@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
 
-    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <link rel="stylesheet" href="./Assets/CSS/style-figure.css">
+    <link rel="stylesheet" href="./Assets/CSS/style-start.css">
     <link rel="shortcut icon" href="./Assets/Image/cv.png" type="image/x-icon">
 
 </head>
@@ -14,7 +15,11 @@
 <body>
     <header>
         <section id="name">
-            <a href="./Assets/Image/photo-profil.jpg" target="_blank"><img src="./Assets/Image/photo-profil.jpg" alt="Photo de profil" title="photo de profil"></a>
+            <figure>
+                <a href="./Assets/Image/profil.jpg" target="_blank">
+                    <img src="./Assets/Image/profil.jpg" alt="Photo de profil" title="photo de profil" id="photo">
+                </a>
+            </figure>
             <h1>JANE DOE</h1>
             <h2>Développeuse web junior</h2>
         </section>
@@ -124,10 +129,12 @@
     <footer>
         <section id="link">
             <div> <!--Liens vers les réseaux professionnels-->
-                <a href="https://fr.linkedin.com/" target="_blank" rel="icon"><img src="./Assets/Image/linkedin.png" alt="Lien vers linkedin"></a>
-                <a href="https://twitter.com/?lang=fr" target="_blank" rel="icon"><img src="./Assets/Image/twitter.png" alt="Lien vers twitter"></a>
-                <a href="https://github.com/Bubolie" target="_blank" rel="icon"><img src="./Assets/Image/signe-github.png" alt="Lien vers GitHub"></a>
-
+                <figure id="logo">
+                    <a href="https://fr.linkedin.com/" target="_blank" rel="icon"><img src="./Assets/Image/linkedin.png" alt="Lien vers linkedin" ></a>
+                    <a href="https://twitter.com/?lang=fr" target="_blank" rel="icon"><img src="./Assets/Image/twitter.png" alt="Lien vers twitter"></a>
+                    <a href="https://github.com/Bubolie" target="_blank" rel="icon"><img src="./Assets/Image/signe-github.png" alt="Lien vers GitHub"></a>
+                </figure>
+                
             </div>
             <div>
                 <small>Dernière mise à jour le <time datetime="2023-05-28">28 mai 2023</time></small>
